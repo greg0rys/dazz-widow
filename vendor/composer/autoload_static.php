@@ -711,6 +711,7 @@ class ComposerStaticInit8300b60594882fc78efe09418f922bf2
         'App\\Commands\\PingCommand' => __DIR__ . '/../..' . '/app/Commands/PingCommand.php',
         'App\\Models\\User' => __DIR__ . '/../..' . '/app/Models/User.php',
         'App\\Providers\\BotServiceProvider' => __DIR__ . '/../..' . '/app/Providers/BotServiceProvider.php',
+        'App\\SlashCommands\\UserInfo' => __DIR__ . '/../..' . '/app/SlashCommands/UserInfo.php',
         'Attribute' => __DIR__ . '/..' . '/symfony/polyfill-php80/Resources/stubs/Attribute.php',
         'Brick\\Math\\BigDecimal' => __DIR__ . '/..' . '/brick/math/src/BigDecimal.php',
         'Brick\\Math\\BigInteger' => __DIR__ . '/..' . '/brick/math/src/BigInteger.php',

@@ -1,9 +1,9 @@
 <?php return array(
     'root' => array(
         'name' => 'laracord/laracord',
-        'pretty_version' => 'v2.3.0',
-        'version' => '2.3.0.0',
-        'reference' => null,
+        'pretty_version' => 'dev-master',
+        'version' => 'dev-master',
+        'reference' => 'd52e9771e57fe8d38680437894e742b9537f1c61',
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -461,9 +461,9 @@
             'dev_requirement' => false,
         ),
         'laracord/laracord' => array(
-            'pretty_version' => 'v2.3.0',
-            'version' => '2.3.0.0',
-            'reference' => null,
+            'pretty_version' => 'dev-master',
+            'version' => 'dev-master',
+            'reference' => 'd52e9771e57fe8d38680437894e742b9537f1c61',
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),

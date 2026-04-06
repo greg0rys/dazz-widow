@@ -10,6 +10,7 @@ return array(
     'App\\Commands\\PingCommand' => $baseDir . '/app/Commands/PingCommand.php',
     'App\\Models\\User' => $baseDir . '/app/Models/User.php',
     'App\\Providers\\BotServiceProvider' => $baseDir . '/app/Providers/BotServiceProvider.php',
+    'App\\SlashCommands\\UserInfo' => $baseDir . '/app/SlashCommands/UserInfo.php',
     'Attribute' => $vendorDir . '/symfony/polyfill-php80/Resources/stubs/Attribute.php',
     'Brick\\Math\\BigDecimal' => $vendorDir . '/brick/math/src/BigDecimal.php',
     'Brick\\Math\\BigInteger' => $vendorDir . '/brick/math/src/BigInteger.php',
