@@ -26,7 +26,9 @@ class UserInfo extends SlashCommand
      *
      * @var array
      */
-    protected $options = [];
+    protected $options = [
+        
+    ];
 
     /**
      * The permissions required to use the command.
