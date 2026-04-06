@@ -3,6 +3,7 @@
 namespace App\Models;
 
 use Illuminate\Database\Eloquent\Model;
+use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Laravel\Sanctum\HasApiTokens;
 
 class User extends Model
@@ -37,5 +38,10 @@ class User extends Model
     public function getHighlightAttribute()
     {
         return "<@{$this->discord_id}>";
+    }
+
+    public function leaderboard(): hasOne
+    {
+        return $this->hasOne(Leaderboard::class);
     }
 }
