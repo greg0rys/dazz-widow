@@ -17,7 +17,9 @@ class LeaderboardFactory extends Factory
     public function definition(): array
     {
         return [
-            //
+            'user_id' => 1,
+            'coin_balance' => rand(1, 1000),
+            'exp_points' => rand(2, 359084),
         ];
     }
 }
